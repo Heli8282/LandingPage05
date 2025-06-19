@@ -1,0 +1,79 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    padding-top: 5px;
+    background-color: red;
+    height: 50vh;
+    width: 100%;
+}
+
+#doordash {
+    display: flex;
+    justify-content: end;
+}
+
+#doordash2 {
+    color: white;
+    justify-content: center;
+}
+
+#signInsignUp {
+    display: flex;
+    justify-content: right;
+}
+
+#signIn {
+    color: white;
+    justify-content: right;
+}
+
+#signUp {
+    color: black;
+}
+
+#search {
+    display: flex;
+}
+
+#divArredondada {
+    height: 4.3vh;
+    width: 2vw;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -35px;
+    margin-top: 5px;
+
+}
+
+input {
+    height: 6vh;
+    width: 20vw;
+    border-radius: 25px;
+    border: none;
+    padding-left: 35px;
+    background-color: rgb(189, 185, 185);
+}
+
+#divArredondada i {
+    color: white;
+}
+
+#searchIcon {
+    margin-left: 15px;
+    position: absolute;
+    margin-top: 9px;
+
+}
+
+#searchIcon i {
+    cursor: pointer;
+    color: white;
+}
