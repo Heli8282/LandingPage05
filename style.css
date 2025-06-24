@@ -3,41 +3,88 @@ body {
     width: 100vw;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #header {
     padding-top: 5px;
-    background-color: red;
     height: 50vh;
     width: 100%;
+    background-image: url(./assets/diferente-fast-food-em-um-plano-sobre-um-fundo-vermelho-espaco-de-texto-ia-geradora_1219132-15032.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
+#header::after {
+  content: '';
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* camada escura por cima */
+  z-index: 1;
+}
+
+#header h1, h3, h4, h5 {
+  position: relative;
+  z-index: 2; /* fica acima da camada escura */
+}
+
 
 #doordash {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    margin-left: 700px;
+    margin-bottom: 40px;
 }
 
 #doordash2 {
     color: white;
-    justify-content: center;
+    justify-content: end;
 }
 
 #signInsignUp {
     display: flex;
-    justify-content: right;
 }
 
 #signIn {
     color: white;
-    justify-content: right;
+    margin-right: 20px;
 }
 
 #signUp {
     color: black;
+    margin-right: 20px;
+}
+
+#restaurants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1px;
+}
+
+h1 {
+    color: white;
+    font-size: 35px;
+}
+
+h5 {
+    color: white;
+    margin-left: 675px;
 }
 
 #search {
     display: flex;
+    align-items: center;
+    margin-left: 590px;
+}
+
+#input {
+    display: flex;
+    margin-top: 8px;
 }
 
 #divArredondada {
