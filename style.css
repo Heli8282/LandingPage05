@@ -8,13 +8,12 @@ body {
 
 #header {
     padding-top: 5px;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
-    background-image: url(./assets/diferente-fast-food-em-um-plano-sobre-um-fundo-vermelho-espaco-de-texto-ia-geradora_1219132-15032.jpg);
+    background-image: url("./assets/diferente-fast-food-em-um-plano-sobre-um-fundo-vermelho-espaco-de-texto-ia-geradora_1219132-15032.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 #header::after {
   content: '';
@@ -22,27 +21,30 @@ body {
   top: 0; 
   left: 0;
   width: 100%; 
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4); /* camada escura por cima */
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
 
 #header h1, h3, h4, h5 {
-  position: relative;
-  z-index: 2; /* fica acima da camada escura */
+    position: relative;
+    z-index: 2; /* fica acima da camada escura */
 }
-
+#localizar{
+    position: relative;
+    z-index: 2; /* fica acima da camada escura */
+}
 
 #doordash {
     display: flex;
     justify-content: space-between;
-    margin-left: 700px;
+    margin-left: 580px;
     margin-bottom: 40px;
 }
 
 #doordash2 {
     color: white;
-    justify-content: end;
+    justify-content: center;
 }
 
 #signInsignUp {
@@ -73,13 +75,18 @@ h1 {
 
 h5 {
     color: white;
-    margin-left: 675px;
+
+}
+
+h6 {
+    color: white;
+
 }
 
 #search {
     display: flex;
     align-items: center;
-    margin-left: 590px;
+
 }
 
 #input {
@@ -123,4 +130,42 @@ input {
 #searchIcon i {
     cursor: pointer;
     color: white;
+}
+#localizar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.title {
+    color: black;
+}
+
+.text {
+    color: black;
+}
+#exampleSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    margin-top: 8vh;
+}
+.classExample{
+    width: 20vw;
+}
+.classExample img{
+    width: 15vw;
+}
+.classExample a {
+    color: orangered;
+    font-weight: bold;
+
+    text-decoration: none;
 }
