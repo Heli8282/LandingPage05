@@ -53,6 +53,10 @@ body {
     margin-bottom: 40px;
 }
 
+#iconeDoordash-red {
+    width: 3vw;
+}
+
 #doordash2 {
     color: white;
     text-align: center;
@@ -202,16 +206,27 @@ input {
 
 #exampleSection-2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row-reverse;
-    width: 60%;
-    margin: 4vh auto;
-    padding: 20px;
+    width: 100%;
+    margin: 0;
+    padding: 40px;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 20px;
+}
+
+#refeicao-2 {
+    width: 30vw;
 }
 
 .classExample-2 {
-    width: 22vw;
+    width: 24vw;
     text-align: left;
+}
+
+.classExample-2 h2 {
+    margin-top: -50px;
 }
 
 .classExample-2 a {
@@ -224,6 +239,96 @@ input {
     display: inline-block;
 }
 
-#refeicao-2 {
+#exampleSection-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 480px;
+    margin: 0;
+    padding: 2px;
+    background-color: rgba(255, 160, 122, 0.277);
+    box-sizing: border-box;
+    gap: 70px;
+    margin-top: -80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#refeicao-3 {
     width: 30vw;
 }
+
+.classExample-3 {
+    width: 23vw;
+    text-align: left;
+}
+
+.classExample-3 a {
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.classExample-3 h2 {
+    margin-top: -50px;
+}
+
+.container {
+    align-items: stretch;
+    min-height: 100vh;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    margin-top: -20px;
+    font-size: 8px;
+    gap: 50px;
+    flex-direction: column;
+}
+
+#first {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+    color: gray;
+    margin-top: 20px;
+}
+
+#second {
+    display: flex;
+    margin-left: 460px;
+    gap: 50px;
+    color: grey;
+}
+
+#third {
+    display: flex;
+    margin-left: 440px;
+    gap: 10px;
+    color: grey;
+}
+
+#iconeDoordash {
+    width: 4vw;
+    background-color: gray;
+    margin-top: -20px;
+}
+
+#final {
+    width: 100%;
+    height: 10px;
+    background-color: white;
+}
+
